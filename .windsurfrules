@@ -1,0 +1,24 @@
+# Project Context
+Ask My GitHub — MVP version:
+- Frontend in React for a chat-style Q&A interface.
+- Backend in Python + FastAPI with indexing and query endpoints.
+- Support public GitHub repo input → chunking → embedding → vector search → GPT-4 Q&A.
+- No private repo handling, audio, or multi-modal features.
+- Only use OpenAI text-embedding-3-small and GPT-4.
+
+# File & Module Structure
+- backend/app/api includes index.py, query.py
+- backend/app/core includes github_client.py, chunker.py, embedder.py, retriever.py
+- frontend/src includes App.jsx, components/ChatBox.jsx, Message.jsx, api.js
+
+# Coding Conventions
+- FastAPI routes use async def, input/output models via Pydantic.
+- React components are functional, using hooks.
+- Simple UI—no extra CSS library; components under src/components.
+- Filenames: kebab-case in frontend, snake_case in backend.
+
+# Behavior Rules
+1. Do not generate database migration or ORM code.
+2. Do not add testing framework.
+3. Do not include Dockerfiles—reserved for future expansion.
+4. Q&A output format: return JSON `{ answer: str, chunks: [{ text, file_path }] }`.

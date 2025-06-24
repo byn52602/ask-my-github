@@ -1,0 +1,17 @@
+node_modules/
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+*.class
+.python-version
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
