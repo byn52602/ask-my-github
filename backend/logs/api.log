@@ -1,0 +1,61 @@
+2025-06-24 00:51:45,414 - api.query - INFO - [1559a855] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:51:45,414 - api.query - DEBUG - [1559a855] Question: what does it do
+2025-06-24 00:51:45,414 - api.query - DEBUG - [1559a855] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:51:45,414 - api.query - ERROR - [1559a855] No indexed data found for repository: https://github.com/byn52602/Hiking-Yelp. Please index the repository first.
+2025-06-24 00:51:45,414 - api.query - DEBUG - [1559a855] Available retrievers: []
+2025-06-24 00:54:02,882 - api.query - INFO - [9c1a538c] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:54:02,883 - api.query - DEBUG - [9c1a538c] Question: what is it
+2025-06-24 00:54:02,883 - api.query - DEBUG - [9c1a538c] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:54:02,883 - api.query - ERROR - [9c1a538c] Unexpected error processing query: name '_retrievers' is not defined
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/query.py", line 175, in query_repo
+    retriever = _retrievers.get(normalized_url)
+                ^^^^^^^^^^^
+NameError: name '_retrievers' is not defined. Did you mean: 'Retriever'?
+2025-06-24 00:55:16,048 - api.query - INFO - [80eade18] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:55:16,049 - api.query - DEBUG - [80eade18] Question: what is it
+2025-06-24 00:55:16,049 - api.query - DEBUG - [80eade18] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:55:16,049 - api.query - INFO - [80eade18] Found retriever with 673 chunks
+2025-06-24 00:55:16,049 - api.query - INFO - [80eade18] Searching for relevant chunks...
+2025-06-24 00:55:16,477 - api.query - INFO - [80eade18] No relevant chunks found for the question
+2025-06-24 00:55:56,862 - api.query - INFO - [bb543441] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:55:56,864 - api.query - DEBUG - [bb543441] Question: what is it
+2025-06-24 00:55:56,864 - api.query - DEBUG - [bb543441] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:55:56,864 - api.query - ERROR - [bb543441] No indexed data found for repository: https://github.com/byn52602/Hiking-Yelp. Please index the repository first.
+2025-06-24 00:55:56,864 - api.query - DEBUG - [bb543441] Available retrievers: []
+2025-06-24 00:56:13,526 - api.query - INFO - [69a8e27d] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:56:13,526 - api.query - DEBUG - [69a8e27d] Question: what is it
+2025-06-24 00:56:13,526 - api.query - DEBUG - [69a8e27d] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:56:13,526 - api.query - INFO - [69a8e27d] Found retriever with 673 chunks
+2025-06-24 00:56:13,526 - api.query - INFO - [69a8e27d] Searching for relevant chunks...
+2025-06-24 00:56:14,129 - api.query - INFO - [69a8e27d] No relevant chunks found for the question
+2025-06-24 00:56:47,616 - api.query - INFO - [d31fa710] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:56:47,616 - api.query - DEBUG - [d31fa710] Question: what languages did the app use
+2025-06-24 00:56:47,616 - api.query - DEBUG - [d31fa710] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:56:47,616 - api.query - ERROR - [d31fa710] No indexed data found for repository: https://github.com/byn52602/Hiking-Yelp. Please index the repository first.
+2025-06-24 00:56:47,616 - api.query - DEBUG - [d31fa710] Available retrievers: []
+2025-06-24 00:58:18,820 - api.query - INFO - [7d1be281] Received query for repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:58:18,821 - api.query - DEBUG - [7d1be281] Question: what framework is used
+2025-06-24 00:58:18,821 - api.query - DEBUG - [7d1be281] Looking up retriever for: https://github.com/byn52602/hiking-yelp
+2025-06-24 00:58:18,821 - api.query - INFO - [7d1be281] Found retriever with 673 chunks
+2025-06-24 00:58:18,822 - api.query - INFO - [7d1be281] Searching for relevant chunks...
+2025-06-24 00:58:19,527 - api.query - INFO - [7d1be281] Found 3 relevant chunks
+2025-06-24 00:58:19,527 - api.query - INFO - [7d1be281] Generating answer...
+2025-06-24 00:58:19,527 - api.query - DEBUG - Sending prompt to GPT-4: You are a helpful assistant that answers questions about code. Use the following code snippets to answer the question. If you're not sure, say so.
+
+Question: what framework is used
+
+Relevant code snippets:
+
+--- Snippet 1 from package-lock.json ---
+scape-html": "~1.0.3",
+        "parseurl": "~1.3.3",
+        "send": "0.18.0"
+      }
+    },
+    "setprototypeof": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+      "integrity": ...
+2025-06-24 00:58:21,865 - api.query - DEBUG - Generated answer: The code snippets provided do not explicitly mention a specific framework being used. However, the presence of a "views/layouts/boilerplate.ejs" file suggests that Express.js might be used, as EJS (Em...
+2025-06-24 00:58:21,865 - api.query - INFO - [7d1be281] Successfully generated response

@@ -18,8 +18,8 @@ app.add_middleware(
 )
 
 # Include routers
-app.include_router(index.router, prefix="/api", tags=["indexing"])
-app.include_router(query.router, prefix="/api", tags=["querying"])
+app.include_router(index.router, prefix="/api")
+app.include_router(query.router, prefix="/api")
 
 @app.get("/health")
 async def health_check():

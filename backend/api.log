@@ -1,0 +1,392 @@
+2025-06-23 22:58:07,402 - api.index - DEBUG - Logging is configured
+2025-06-23 22:58:35,063 - api.index - DEBUG - Logging is configured
+2025-06-23 22:58:50,901 - api.index - DEBUG - Logging is configured
+2025-06-24 00:22:50,683 - api.index - DEBUG - Logging is configured
+2025-06-24 00:23:11,022 - api.index - DEBUG - Logging is configured
+2025-06-24 00:23:26,121 - api.index - DEBUG - Logging is configured
+2025-06-24 00:23:44,122 - api.index - DEBUG - Logging is configured
+2025-06-24 00:24:43,218 - api.index - DEBUG - Logging is configured
+2025-06-24 00:24:49,065 - api.index - DEBUG - Logging is configured
+2025-06-24 00:25:09,888 - api.index - DEBUG - Logging is configured
+2025-06-24 00:25:12,694 - api.index - INFO - [req_20250624002512] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:25:12,695 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '54', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:25:12,695 - api.index - DEBUG - [req_20250624002512] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: main)
+2025-06-24 00:25:12,988 - api.index - DEBUG - [req_20250624002512] Cloned to temp directory: None
+2025-06-24 00:25:12,988 - api.index - ERROR - [req_20250624002512] Failed to clone repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:25:12,988 - api.index - ERROR - [req_20250624002512] HTTPException: 400: error_msg
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/index.py", line 89, in index_repo
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 400: error_msg
+2025-06-24 00:25:43,671 - api.index - DEBUG - Logging is configured
+2025-06-24 00:25:47,647 - api.index - INFO - [req_20250624002547] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:25:47,647 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '54', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:25:47,647 - api.index - DEBUG - [req_20250624002547] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: main)
+2025-06-24 00:25:47,905 - api.index - DEBUG - [req_20250624002547] Cloned to temp directory: None
+2025-06-24 00:25:47,905 - api.index - ERROR - [req_20250624002547] Failed to clone repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:25:47,905 - api.index - ERROR - [req_20250624002547] HTTPException: 400: [req_20250624002547] Failed to clone repository: https://github.com/byn52602/Hiking-Yelp
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/index.py", line 89, in index_repo
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 400: [req_20250624002547] Failed to clone repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:26:39,488 - api.index - DEBUG - Logging is configured
+2025-06-24 00:26:50,025 - api.index - DEBUG - Logging is configured
+2025-06-24 00:27:39,646 - api.index - INFO - [req_20250624002739] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:27:39,648 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '54', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:27:39,648 - api.index - DEBUG - [req_20250624002739] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: main)
+2025-06-24 00:27:39,924 - api.index - ERROR - [req_20250624002739] Failed to clone repository. Please check the URL and ensure it's a valid GitHub repository and the branch exists.
+2025-06-24 00:27:39,924 - api.index - ERROR - [req_20250624002739] HTTPException: 400: Failed to clone repository. Please check the URL and ensure it's a valid GitHub repository and the branch exists.
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/index.py", line 99, in index_repo
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 400: Failed to clone repository. Please check the URL and ensure it's a valid GitHub repository and the branch exists.
+2025-06-24 00:30:10,993 - api.index - DEBUG - Logging is configured
+2025-06-24 00:30:21,591 - api.index - INFO - [req_20250624003021] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:30:21,591 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '54', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:30:21,591 - api.index - DEBUG - [req_20250624003021] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: master)
+2025-06-24 00:30:21,937 - api.index - INFO - [req_20250624003021] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__aj3qdp9
+2025-06-24 00:30:21,937 - api.index - DEBUG - [req_20250624003021] Initializing components
+2025-06-24 00:30:21,945 - api.index - DEBUG - [req_20250624003021] Processing files in: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__aj3qdp9
+2025-06-24 00:30:21,949 - api.index - DEBUG - [req_20250624003021] Found 708 chunks
+2025-06-24 00:30:21,949 - api.index - INFO - [req_20250624003021] Generating embeddings for 708 chunks...
+2025-06-24 00:30:37,763 - api.index - INFO - [req_20250624003021] Successfully stored retriever for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:30:37,763 - api.index - DEBUG - [req_20250624003021] Current retrievers: ['https://github.com/byn52602/Hiking-Yelp']
+2025-06-24 00:30:37,764 - api.index - INFO - [req_20250624003021] Indexing completed successfully
+2025-06-24 00:30:37,764 - api.index - DEBUG - [req_20250624003021] Cleaning up temporary directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__aj3qdp9
+2025-06-24 00:33:07,620 - api.index - DEBUG - Logging is configured
+2025-06-24 00:33:35,537 - api.index - DEBUG - Logging is configured
+2025-06-24 00:33:50,016 - api.index - DEBUG - Logging is configured
+2025-06-24 00:34:03,409 - api.index - DEBUG - Logging is configured
+2025-06-24 00:34:37,872 - api.index - DEBUG - Logging is configured
+2025-06-24 00:34:52,473 - api.index - INFO - [req_20250624003452] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:34:52,473 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '54', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:34:52,473 - api.index - DEBUG - [req_20250624003452] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: master)
+2025-06-24 00:34:52,849 - api.index - INFO - [req_20250624003452] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__qhgvu57
+2025-06-24 00:34:52,849 - api.index - DEBUG - [req_20250624003452] Initializing components
+2025-06-24 00:34:52,858 - api.index - DEBUG - [req_20250624003452] Processing files in: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__qhgvu57
+2025-06-24 00:34:52,861 - api.index - DEBUG - [req_20250624003452] Found 708 chunks
+2025-06-24 00:34:52,861 - api.index - INFO - [req_20250624003452] Generating embeddings for 708 chunks...
+2025-06-24 00:35:09,118 - api.index - INFO - [req_20250624003452] Successfully stored retriever for https://github.com/byn52602/hiking-yelp
+2025-06-24 00:35:09,118 - api.index - DEBUG - [req_20250624003452] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:35:09,118 - api.index - INFO - [req_20250624003452] Indexing completed successfully
+2025-06-24 00:35:09,118 - api.index - DEBUG - [req_20250624003452] Cleaning up temporary directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo__qhgvu57
+2025-06-24 00:35:41,774 - api.query - INFO - [query_2ff1e242] Processing query for repo: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:35:41,774 - api.query - DEBUG - Looking up retriever for URL (normalized): https://github.com/byn52602/hiking-yelp
+2025-06-24 00:35:41,774 - api.query - DEBUG - Available retrievers: []
+2025-06-24 00:35:41,774 - api.query - DEBUG - [query_2ff1e242] Retriever found: False
+2025-06-24 00:35:41,774 - api.query - ERROR - [query_2ff1e242] No indexed data found for repository: https://github.com/byn52602/Hiking-Yelp. Please index the repository first.
+2025-06-24 00:35:41,774 - api.query - DEBUG - [query_2ff1e242] Available retrievers: []
+2025-06-24 00:36:50,571 - api.index - INFO - [req_20250624003650] Starting index_repo for https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:36:50,571 - api.index - DEBUG - Request: POST http://localhost:8000/api/index | Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '81', 'sec-ch-ua-platform': '"macOS"', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Query params: {}
+2025-06-24 00:36:50,572 - api.index - DEBUG - [req_20250624003650] Cloning repository: https://github.com/byn52602/Hiking-Yelp (branch: master)
+2025-06-24 00:36:50,968 - api.index - INFO - [req_20250624003650] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_38mkhqla
+2025-06-24 00:36:50,968 - api.index - DEBUG - [req_20250624003650] Initializing components
+2025-06-24 00:36:50,978 - api.index - DEBUG - [req_20250624003650] Processing files in: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_38mkhqla
+2025-06-24 00:36:50,987 - api.index - DEBUG - [req_20250624003650] Found 708 chunks
+2025-06-24 00:36:50,987 - api.index - INFO - [req_20250624003650] Generating embeddings for 708 chunks...
+2025-06-24 00:37:07,762 - api.index - INFO - [req_20250624003650] Successfully stored retriever for https://github.com/byn52602/hiking-yelp
+2025-06-24 00:37:07,762 - api.index - DEBUG - [req_20250624003650] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:37:07,762 - api.index - INFO - [req_20250624003650] Indexing completed successfully
+2025-06-24 00:37:07,762 - api.index - DEBUG - [req_20250624003650] Cleaning up temporary directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_38mkhqla
+2025-06-24 00:38:22,928 - api.index - DEBUG - Logging is configured
+2025-06-24 00:38:45,153 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:09,704 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:13,583 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:18,223 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:25,089 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:31,959 - api.index - DEBUG - Logging is configured
+2025-06-24 00:39:40,270 - api.index - DEBUG - Logging is configured
+2025-06-24 00:40:02,651 - api.index - DEBUG - Logging is configured
+2025-06-24 00:40:16,695 - api.index - DEBUG - Logging is configured
+2025-06-24 00:40:24,998 - api.index - DEBUG - Logging is configured
+2025-06-24 00:40:54,707 - api.index - DEBUG - Logging is configured
+2025-06-24 00:41:13,469 - api.index - DEBUG - Logging is configured
+2025-06-24 00:41:28,322 - api.index - DEBUG - Logging is configured
+2025-06-24 00:42:18,433 - api.index - DEBUG - Logging is configured
+2025-06-24 00:43:47,769 - api.index - DEBUG - Logging is configured
+2025-06-24 00:44:03,559 - api.index - DEBUG - Logging is configured
+2025-06-24 00:44:12,892 - api.index - DEBUG - Logging is configured
+2025-06-24 00:44:21,082 - api.index - DEBUG - Logging is configured
+2025-06-24 00:48:30,895 - api.index - DEBUG - Logging is configured
+2025-06-24 00:48:43,175 - api.index - INFO - [aa7d307f] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:48:43,176 - api.index - INFO - [aa7d307f] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:48:43,528 - api.index - INFO - [aa7d307f] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_p4y4inav
+2025-06-24 00:48:43,529 - api.index - DEBUG - [aa7d307f] Initializing components
+2025-06-24 00:48:43,529 - api.index - ERROR - [aa7d307f] Unexpected error: name 'Embedder' is not defined
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/index.py", line 129, in index_repo
+    embedder = Embedder()
+               ^^^^^^^^
+NameError: name 'Embedder' is not defined
+2025-06-24 00:48:43,537 - api.index - INFO - [aa7d307f] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_p4y4inav
+2025-06-24 00:49:22,965 - api.index - DEBUG - Logging is configured
+2025-06-24 00:49:29,192 - api.index - DEBUG - Logging is configured
+2025-06-24 00:49:43,587 - api.index - INFO - [b0eb2e94] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:49:43,587 - api.index - INFO - [b0eb2e94] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:49:43,964 - api.index - INFO - [b0eb2e94] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp
+2025-06-24 00:49:43,964 - api.index - DEBUG - [b0eb2e94] Initializing components
+2025-06-24 00:49:43,973 - api.index - INFO - [b0eb2e94] Processing files in repository...
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/.DS_Store: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/index.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/.gitignore: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/package-lock.json: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/package.json: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/schemas.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,973 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/cloudinary/index.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/utils/catchAsync.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/utils/ExpressError.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/models/Review.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/models/Hiking.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/public/javascripts/validateForms.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/public/stylesheets/home.css: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/public/stylesheets/stars.css: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/seeds/trail.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/seeds/index.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,974 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/seeds/cities.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,975 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/controllers/reviews.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,975 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/controllers/hiking.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,975 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/home.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,975 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/error.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,975 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/layouts/boilerplate.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/partials/flash.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/partials/navbar.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/partials/footer.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/hiking/index.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/hiking/show.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/hiking/new.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/views/hiking/edit.ejs: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/routes/review.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - WARNING - [b0eb2e94] Error processing /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp/routes/hiking.js: 'Chunker' object has no attribute 'create_chunks'
+2025-06-24 00:49:43,976 - api.index - ERROR - [b0eb2e94] No valid text files found to process in the repository.
+2025-06-24 00:49:43,976 - api.index - ERROR - [b0eb2e94] Error processing repository files: 400: No valid text files found to process in the repository.
+Traceback (most recent call last):
+  File "/Users/yanibu/ask-my-github/backend/app/api/index.py", line 166, in index_repo
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 400: No valid text files found to process in the repository.
+2025-06-24 00:49:43,983 - api.index - INFO - [b0eb2e94] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_02thdiwp
+2025-06-24 00:51:13,422 - api.index - DEBUG - Logging is configured
+2025-06-24 00:51:32,592 - api.index - INFO - [bb16ca6a] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:51:32,592 - api.index - INFO - [bb16ca6a] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:51:32,974 - api.index - INFO - [bb16ca6a] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11
+2025-06-24 00:51:32,974 - api.index - DEBUG - [bb16ca6a] Initializing components
+2025-06-24 00:51:32,984 - api.index - INFO - [bb16ca6a] Processing files in repository...
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/.DS_Store: 8 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/index.js: 3 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/.gitignore: 1 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/package-lock.json: 186 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/package.json: 1 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/schemas.js: 1 chunks
+2025-06-24 00:51:32,984 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/cloudinary/index.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/utils/catchAsync.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/utils/ExpressError.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/models/Review.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/models/Hiking.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/public/javascripts/validateForms.js: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/public/stylesheets/home.css: 1 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/public/stylesheets/stars.css: 17 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/seeds/trail.js: 19 chunks
+2025-06-24 00:51:32,985 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/seeds/index.js: 3 chunks
+2025-06-24 00:51:32,986 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/seeds/cities.js: 393 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/controllers/reviews.js: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/controllers/hiking.js: 3 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/home.ejs: 3 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/error.ejs: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/layouts/boilerplate.ejs: 2 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/partials/flash.ejs: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/partials/navbar.ejs: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/partials/footer.ejs: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/hiking/index.ejs: 2 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/hiking/show.ejs: 7 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/hiking/new.ejs: 5 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/views/hiking/edit.ejs: 4 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/routes/review.js: 1 chunks
+2025-06-24 00:51:32,987 - api.index - DEBUG - [bb16ca6a] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11/routes/hiking.js: 2 chunks
+2025-06-24 00:51:32,987 - api.index - INFO - [bb16ca6a] Generated 673 chunks from repository
+2025-06-24 00:51:32,987 - api.index - INFO - [bb16ca6a] Generating embeddings for 673 chunks...
+2025-06-24 00:51:35,176 - api.index - INFO - [bb16ca6a] Successfully generated embeddings
+2025-06-24 00:51:35,176 - api.index - INFO - [bb16ca6a] Indexed repository: https://github.com/byn52602/hiking-yelp with 673 chunks
+2025-06-24 00:51:35,183 - api.index - INFO - [bb16ca6a] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gu54uo11
+2025-06-24 00:52:42,398 - api.index - DEBUG - Logging is configured
+2025-06-24 00:52:50,041 - api.index - DEBUG - Logging is configured
+2025-06-24 00:52:58,126 - api.index - DEBUG - Logging is configured
+2025-06-24 00:53:51,308 - api.index - INFO - [9a20d150] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:53:51,309 - api.index - INFO - [9a20d150] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:53:51,729 - api.index - INFO - [9a20d150] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65
+2025-06-24 00:53:51,730 - api.index - DEBUG - [9a20d150] Initializing components
+2025-06-24 00:53:51,739 - api.index - INFO - [9a20d150] Processing files in repository...
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/.DS_Store: 8 chunks
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/index.js: 3 chunks
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/.gitignore: 1 chunks
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/package-lock.json: 186 chunks
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/package.json: 1 chunks
+2025-06-24 00:53:51,739 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/schemas.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/cloudinary/index.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/utils/catchAsync.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/utils/ExpressError.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/models/Review.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/models/Hiking.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/public/javascripts/validateForms.js: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/public/stylesheets/home.css: 1 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/public/stylesheets/stars.css: 17 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/seeds/trail.js: 19 chunks
+2025-06-24 00:53:51,740 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/seeds/index.js: 3 chunks
+2025-06-24 00:53:51,741 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/seeds/cities.js: 393 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/controllers/reviews.js: 1 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/controllers/hiking.js: 3 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/home.ejs: 3 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/error.ejs: 1 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/layouts/boilerplate.ejs: 2 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/partials/flash.ejs: 1 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/partials/navbar.ejs: 1 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/partials/footer.ejs: 1 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/hiking/index.ejs: 2 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/hiking/show.ejs: 7 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/hiking/new.ejs: 5 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/views/hiking/edit.ejs: 4 chunks
+2025-06-24 00:53:51,742 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/routes/review.js: 1 chunks
+2025-06-24 00:53:51,743 - api.index - DEBUG - [9a20d150] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65/routes/hiking.js: 2 chunks
+2025-06-24 00:53:51,743 - api.index - INFO - [9a20d150] Generated 673 chunks from repository
+2025-06-24 00:53:51,743 - api.index - INFO - [9a20d150] Generating embeddings for 673 chunks...
+2025-06-24 00:53:54,262 - api.index - INFO - [9a20d150] Successfully generated embeddings
+2025-06-24 00:53:54,262 - api.index - INFO - [9a20d150] Indexed repository: https://github.com/byn52602/hiking-yelp with 673 chunks
+2025-06-24 00:53:54,262 - api.index - DEBUG - [9a20d150] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:53:54,269 - api.index - INFO - [9a20d150] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_uhko5l65
+2025-06-24 00:54:49,692 - api.index - DEBUG - Logging is configured
+2025-06-24 00:55:07,695 - api.index - INFO - [d0627e4d] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:55:07,695 - api.index - INFO - [d0627e4d] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:55:08,058 - api.index - INFO - [d0627e4d] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg
+2025-06-24 00:55:08,058 - api.index - DEBUG - [d0627e4d] Initializing components
+2025-06-24 00:55:08,067 - api.index - INFO - [d0627e4d] Processing files in repository...
+2025-06-24 00:55:08,067 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/.DS_Store: 8 chunks
+2025-06-24 00:55:08,067 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/index.js: 3 chunks
+2025-06-24 00:55:08,067 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/.gitignore: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/package-lock.json: 186 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/package.json: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/schemas.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/cloudinary/index.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/utils/catchAsync.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/utils/ExpressError.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/models/Review.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/models/Hiking.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/public/javascripts/validateForms.js: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/public/stylesheets/home.css: 1 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/public/stylesheets/stars.css: 17 chunks
+2025-06-24 00:55:08,068 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/seeds/trail.js: 19 chunks
+2025-06-24 00:55:08,069 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/seeds/index.js: 3 chunks
+2025-06-24 00:55:08,069 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/seeds/cities.js: 393 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/controllers/reviews.js: 1 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/controllers/hiking.js: 3 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/home.ejs: 3 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/error.ejs: 1 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/layouts/boilerplate.ejs: 2 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/partials/flash.ejs: 1 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/partials/navbar.ejs: 1 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/partials/footer.ejs: 1 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/hiking/index.ejs: 2 chunks
+2025-06-24 00:55:08,070 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/hiking/show.ejs: 7 chunks
+2025-06-24 00:55:08,071 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/hiking/new.ejs: 5 chunks
+2025-06-24 00:55:08,071 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/views/hiking/edit.ejs: 4 chunks
+2025-06-24 00:55:08,071 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/routes/review.js: 1 chunks
+2025-06-24 00:55:08,071 - api.index - DEBUG - [d0627e4d] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg/routes/hiking.js: 2 chunks
+2025-06-24 00:55:08,071 - api.index - INFO - [d0627e4d] Generated 673 chunks from repository
+2025-06-24 00:55:08,071 - api.index - INFO - [d0627e4d] Generating embeddings for 673 chunks...
+2025-06-24 00:55:11,672 - api.index - INFO - [d0627e4d] Successfully generated embeddings
+2025-06-24 00:55:11,672 - api.index - INFO - [d0627e4d] Indexed repository: https://github.com/byn52602/hiking-yelp with 673 chunks
+2025-06-24 00:55:11,672 - api.index - DEBUG - [d0627e4d] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:55:11,678 - api.index - INFO - [d0627e4d] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_07_h3lfg
+2025-06-24 00:55:48,345 - api.index - DEBUG - Logging is configured
+2025-06-24 00:56:05,629 - api.index - INFO - [ba5a245f] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:56:05,629 - api.index - INFO - [ba5a245f] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:56:06,026 - api.index - INFO - [ba5a245f] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj
+2025-06-24 00:56:06,026 - api.index - DEBUG - [ba5a245f] Initializing components
+2025-06-24 00:56:06,035 - api.index - INFO - [ba5a245f] Processing files in repository...
+2025-06-24 00:56:06,035 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/.DS_Store: 8 chunks
+2025-06-24 00:56:06,035 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/index.js: 3 chunks
+2025-06-24 00:56:06,035 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/.gitignore: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/package-lock.json: 186 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/package.json: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/schemas.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/cloudinary/index.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/utils/catchAsync.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/utils/ExpressError.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/models/Review.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/models/Hiking.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/public/javascripts/validateForms.js: 1 chunks
+2025-06-24 00:56:06,036 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/public/stylesheets/home.css: 1 chunks
+2025-06-24 00:56:06,037 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/public/stylesheets/stars.css: 17 chunks
+2025-06-24 00:56:06,037 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/seeds/trail.js: 19 chunks
+2025-06-24 00:56:06,037 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/seeds/index.js: 3 chunks
+2025-06-24 00:56:06,037 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/seeds/cities.js: 393 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/controllers/reviews.js: 1 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/controllers/hiking.js: 3 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/home.ejs: 3 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/error.ejs: 1 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/layouts/boilerplate.ejs: 2 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/partials/flash.ejs: 1 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/partials/navbar.ejs: 1 chunks
+2025-06-24 00:56:06,038 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/partials/footer.ejs: 1 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/hiking/index.ejs: 2 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/hiking/show.ejs: 7 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/hiking/new.ejs: 5 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/views/hiking/edit.ejs: 4 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/routes/review.js: 1 chunks
+2025-06-24 00:56:06,039 - api.index - DEBUG - [ba5a245f] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj/routes/hiking.js: 2 chunks
+2025-06-24 00:56:06,039 - api.index - INFO - [ba5a245f] Generated 673 chunks from repository
+2025-06-24 00:56:06,039 - api.index - INFO - [ba5a245f] Generating embeddings for 673 chunks...
+2025-06-24 00:56:09,608 - api.index - INFO - [ba5a245f] Successfully generated embeddings
+2025-06-24 00:56:09,609 - api.index - INFO - [ba5a245f] Indexed repository: https://github.com/byn52602/hiking-yelp with 673 chunks
+2025-06-24 00:56:09,609 - api.index - DEBUG - [ba5a245f] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:56:09,618 - api.index - INFO - [ba5a245f] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_63tjdjmj
+2025-06-24 00:56:23,201 - api.index - DEBUG - Logging is configured
+2025-06-24 00:57:14,901 - api.index - DEBUG - Logging is configured
+2025-06-24 00:57:31,119 - api.index - DEBUG - Logging is configured
+2025-06-24 00:58:04,415 - api.index - INFO - [a33da4ba] Received request to index repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:58:04,415 - api.index - INFO - [a33da4ba] Cloning repository: https://github.com/byn52602/Hiking-Yelp
+2025-06-24 00:58:04,828 - api.index - INFO - [a33da4ba] Successfully cloned repository to: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4
+2025-06-24 00:58:04,828 - api.index - DEBUG - [a33da4ba] Initializing components
+2025-06-24 00:58:04,838 - api.index - INFO - [a33da4ba] Processing files in repository...
+2025-06-24 00:58:04,838 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/.DS_Store: 8 chunks
+2025-06-24 00:58:04,838 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/index.js: 3 chunks
+2025-06-24 00:58:04,838 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/.gitignore: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/package-lock.json: 186 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/package.json: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/schemas.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/cloudinary/index.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/utils/catchAsync.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/utils/ExpressError.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/models/Review.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/models/Hiking.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/public/javascripts/validateForms.js: 1 chunks
+2025-06-24 00:58:04,839 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/public/stylesheets/home.css: 1 chunks
+2025-06-24 00:58:04,840 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/public/stylesheets/stars.css: 17 chunks
+2025-06-24 00:58:04,840 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/seeds/trail.js: 19 chunks
+2025-06-24 00:58:04,840 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/seeds/index.js: 3 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/seeds/cities.js: 393 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/controllers/reviews.js: 1 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/controllers/hiking.js: 3 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/home.ejs: 3 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/error.ejs: 1 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/layouts/boilerplate.ejs: 2 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/partials/flash.ejs: 1 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/partials/navbar.ejs: 1 chunks
+2025-06-24 00:58:04,841 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/partials/footer.ejs: 1 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/hiking/index.ejs: 2 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/hiking/show.ejs: 7 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/hiking/new.ejs: 5 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/views/hiking/edit.ejs: 4 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/routes/review.js: 1 chunks
+2025-06-24 00:58:04,842 - api.index - DEBUG - [a33da4ba] Processed /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4/routes/hiking.js: 2 chunks
+2025-06-24 00:58:04,842 - api.index - INFO - [a33da4ba] Generated 673 chunks from repository
+2025-06-24 00:58:04,842 - api.index - INFO - [a33da4ba] Generating embeddings for 673 chunks...
+2025-06-24 00:58:08,380 - api.index - INFO - [a33da4ba] Successfully generated embeddings
+2025-06-24 00:58:08,380 - api.index - INFO - [a33da4ba] Indexed repository: https://github.com/byn52602/hiking-yelp with 673 chunks
+2025-06-24 00:58:08,380 - api.index - DEBUG - [a33da4ba] Current retrievers: ['https://github.com/byn52602/hiking-yelp']
+2025-06-24 00:58:08,387 - api.index - INFO - [a33da4ba] Cleaned up repository directory: /var/folders/2d/nqgkzvl55pz0566zzt3hljwh0000gn/T/github_repo_gdomldh4
